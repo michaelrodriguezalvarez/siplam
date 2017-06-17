@@ -1,0 +1,11 @@
+{% extends 'template.html' %}
+
+{% block breadcrumbs %}
+    <span> >> </span><span><b>Consumo especifico de combustible</b></span>
+{% endblock %}
+
+{% load mathfilters %}
+
+{% block content %}
+<p>{{ registro.consumo_combustible|intdiv:registro.energia_generada }}</p>
+{% endblock %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Producción e Indicadores</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}"><span>Inicio</span></a></li>
+        {% block breadcrumbs %}{% endblock %}
+    </nav>
+{% block content %}
+{% endblock %}
+</body>
+</html>

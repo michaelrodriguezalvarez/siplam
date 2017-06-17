@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'mathfilters',
     'mod_control_produccion_indicadores',
     'django.contrib.admin',
     'django.contrib.auth',
